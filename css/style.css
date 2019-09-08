@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding:0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -28,8 +29,14 @@ body{
     text-transform: uppercase;
     padding:  0px 10px;
     border: 2px solid white;
-    letter-spacing: 3px;
+    padding-left: 15px;
+    letter-spacing: 5px;
     color: #fff;
+}
+
+ul.navbar-nav li {
+    letter-spacing: 2px;
+    text-transform: capitalize;
 }
 
 ul.navbar-nav li a{
@@ -56,6 +63,14 @@ ul.navbar-nav li a{
     transform:rotate(-10deg);
 }
 
+.home-inner h3{
+    letter-spacing: 3px;
+    font-family: 'Ruthie', cursive;
+    font-size: 1.5rem;
+    transform:rotate(-10deg);
+}
+
+
 .btn{
     margin-top: 5rem;
     color:#fff;
@@ -64,4 +79,44 @@ ul.navbar-nav li a{
 .ubtm-img{
     width: 100%;
     height: 100%;
+}
+#about{
+    padding-top: 5rem;
+}
+
+.aboutme-inner img{
+    padding-left: 5rem;
+    width:500px;
+    height: 500px;
+    
+}
+
+.aboutme-inner2 hr{
+    border: 1px solid #700889;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.aboutme-inner2 h1{
+    text-align: center;
+    color: #630472;
+}
+
+.aboutme-inner2 h5{
+    margin-top: 20px;
+    padding: 20px 0 0 20px;
+    
+}
+
+.about-des{
+    background-image: linear-gradient(to right, #8919bb, #7d10a1, #700889, #630472, #54025c);
+    width: 650px;
+    height: 380px;
+    color: #fff;
+}
+
+.about-des p{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2rem;
 }
