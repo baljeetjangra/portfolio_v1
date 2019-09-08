@@ -69,7 +69,10 @@ ul.navbar-nav li a{
     font-size: 1.5rem;
     transform:rotate(-10deg);
 }
-
+.btn-info{
+    background-image: linear-gradient(to right, #8919bb, #630472);
+    outline:#fff;
+}
 
 .btn{
     margin-top: 5rem;
@@ -90,10 +93,16 @@ ul.navbar-nav li a{
     
 }
 
-.aboutme-inner2 hr{
-    border: 1px solid #700889;
-    border-radius: 8px;
-    width: 250px;
+.title-about::before {
+    content: '';
+    border-radius: 20px;
+    background:#700889;
+    height: 4px;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px)
 }
 
 .aboutme-inner2 h1{
@@ -108,10 +117,11 @@ ul.navbar-nav li a{
 }
 
 .about-des{
-    background-image: linear-gradient(to right, #8919bb,  #630472);
-    height: 79%;
+    
+    padding-bottom: 30px;
+    border-radius: 5px;
 
-    color: #fff;
+    
 }
 
 .about-des p{
@@ -120,6 +130,6 @@ ul.navbar-nav li a{
     line-height: 2rem;
 }
 
-.about-des.btn{
-    padding-bottom:20px !important;
+.about-des.btn-info{
+    padding-bottom:20px ;
 }
