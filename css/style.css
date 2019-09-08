@@ -1,11 +1,10 @@
 *{
-    margin: 0px;
-    padding:0;
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 
 body{
-    overflow-y: scroll; overflow-x:hidden;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -22,7 +21,7 @@ body{
 .navbar{
     font-weight: 600;
     color: #fff !important;
-    background-image: linear-gradient(to right, #8919bb, #7d10a1, #700889, #630472, #54025c);
+    background-image: linear-gradient(to right, #8919bb, #630472);
 }
 
 .navbar-brand{
@@ -45,21 +44,22 @@ ul.navbar-nav li a{
 
 
 .landing{
-    background-image: linear-gradient(to right, #8919bb, #7d10a1, #700889, #630472, #54025c);
+    background-image: linear-gradient(to right, #8919bb, #630472);
     
 }
 
 
 
 .home-inner{
-    padding-top: 15rem;
+    padding-top: 15em;
     color: #fff;
 }
 
 .home-inner h1{
     font-family: 'Ruthie', cursive;
     letter-spacing: 3px;
-    font-size: 6rem;
+    font-size: 5rem;
+    margin-right: auto;
     transform:rotate(-10deg);
 }
 
@@ -81,20 +81,19 @@ ul.navbar-nav li a{
     height: 100%;
 }
 #about{
-    padding-top: 5rem;
+    padding-top: 80px;
 }
 
 .aboutme-inner img{
-    padding-left: 5rem;
-    width:500px;
-    height: 500px;
+    width:90%;
+    height: 90%;
     
 }
 
 .aboutme-inner2 hr{
     border: 1px solid #700889;
     border-radius: 8px;
-    width: 200px;
+    width: 250px;
 }
 
 .aboutme-inner2 h1{
@@ -104,19 +103,23 @@ ul.navbar-nav li a{
 
 .aboutme-inner2 h5{
     margin-top: 20px;
-    padding: 20px 0 0 20px;
+    padding-top: 20px;
     
 }
 
 .about-des{
-    background-image: linear-gradient(to right, #8919bb, #7d10a1, #700889, #630472, #54025c);
-    width: 650px;
-    height: 380px;
+    background-image: linear-gradient(to right, #8919bb,  #630472);
+    height: 79%;
+
     color: #fff;
 }
 
 .about-des p{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     line-height: 2rem;
+}
+
+.about-des.btn{
+    padding-bottom:20px !important;
 }
