@@ -21,17 +21,26 @@ body{
 .navbar{
     font-weight: 600;
     color: #fff !important;
-    background-image: linear-gradient(to right, #8919bb, #630472);
+    
+    background-color: #0E0B16;
 }
 
 .navbar-brand{
     text-transform: uppercase;
     padding:  0px 10px;
-    border: 2px solid white;
+    
+    border: 2px solid #fedc3d;
+    border-radius: 15px;
     padding-left: 15px;
     letter-spacing: 5px;
-    color: #fff;
+    color: #fedc3d;
 }
+
+.navbar  a:hover{
+    color: #fedc3d;
+}
+
+
 
 ul.navbar-nav li {
     letter-spacing: 2px;
@@ -39,13 +48,12 @@ ul.navbar-nav li {
 }
 
 ul.navbar-nav li a{
-    color: #fff;
+    color: #fedc3d;
 }
 
 
 .landing{
-    background-image: linear-gradient(to right, #8919bb, #630472);
-    
+    background-color: #0E0B16;
 }
 
 
@@ -62,6 +70,7 @@ ul.navbar-nav li a{
     font-size: 8vw;
     margin-right: auto;
     transform:rotate(-10deg);
+    color: #fedc3d;
   
 }
 
@@ -69,11 +78,13 @@ ul.navbar-nav li a{
     letter-spacing: 3px;
     font-family: 'Ruthie', cursive;
     font-size: 2vw;
+    padding-top: 20px;
+    color: #fedc3d;
     transform:rotate(-10deg);
 }
 .btn-info{
-    background-image: linear-gradient(to right, #8919bb, #630472);
-    outline:#fff;
+    color: #fedc3d;
+   
 }
 
 .btn{
@@ -98,7 +109,7 @@ ul.navbar-nav li a{
 #about .title-head::before {
     content: '';
     border-radius: 20px;
-    background:#700889;
+    background:#fedc3d;
     height: 4px;
     width: 225px;
     margin-left: auto;
@@ -109,7 +120,7 @@ ul.navbar-nav li a{
 
 .title-head{
     text-align: center;
-    color: #630472;
+    color: #fedc3d;
 }
 
 .aboutme-inner2 h5{
@@ -139,7 +150,7 @@ ul.navbar-nav li a{
 #skills .title-head::before{
     content: '';
     border-radius: 20px;
-    background:#700889;
+    background:#fedc3d;
     height: 4px;
     width: 145px ;
     margin-left: auto;
@@ -158,9 +169,13 @@ ul.navbar-nav li a{
 
 }
 
+.skills-detail{
+    color: #fff;
+}
 #skills h4{
     padding-top: 30px;
     padding-bottom: 5px;
+
 }
 
 .html{
@@ -191,4 +206,8 @@ ul.navbar-nav li a{
     width: 85%;
     background-color: #8919bb;
     border-radius: 20px;
+}
+
+.btn{
+background-color:#fedc3d 
 }
