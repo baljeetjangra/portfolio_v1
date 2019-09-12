@@ -22,18 +22,19 @@ body{
     font-weight: 600;
     color: #fff !important;
     
-    background-color: #0E0B16;
+    background: linear-gradient(135deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 17%,rgba(27, 27, 27, 0.05) 17%, rgba(27, 27, 27, 0.05) 34%,rgba(31, 31, 31, 0.05) 34%, rgba(31, 31, 31, 0.05) 93%,rgba(242, 242, 242, 0.05) 93%, rgba(242, 242, 242, 0.05) 100%),linear-gradient(135deg, rgba(129, 129, 129, 0.05) 0%, rgba(129, 129, 129, 0.05) 66%,rgba(117, 117, 117, 0.05) 66%, rgba(117, 117, 117, 0.05) 91%,rgba(199, 199, 199, 0.05) 91%, rgba(199, 199, 199, 0.05) 100%),linear-gradient(135deg, rgba(31, 31, 31, 0.07) 0%, rgba(31, 31, 31, 0.07) 15%,rgba(139, 139, 139, 0.07) 15%, rgba(139, 139, 139, 0.07) 23%,rgba(200, 200, 200, 0.07) 23%, rgba(200, 200, 200, 0.07) 29%,rgba(102, 102, 102, 0.07) 29%, rgba(102, 102, 102, 0.07) 100%),linear-gradient(90deg, rgb(19, 196, 228),rgb(126, 8, 222))
+
 }
 
 .navbar-brand{
     text-transform: uppercase;
     padding:  0px 10px;
     
-    border: 2px solid #fedc3d;
-    border-radius: 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
     padding-left: 15px;
     letter-spacing: 5px;
-    color: #fedc3d;
+    color: #fff;
 }
 
 .navbar  a:hover{
@@ -48,39 +49,57 @@ ul.navbar-nav li {
 }
 
 ul.navbar-nav li a{
-    color: #fedc3d;
+    color: #fff;
 }
 
 
 .landing{
-    background-color: #0E0B16;
+   background: linear-gradient(135deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 17%,rgba(27, 27, 27, 0.05) 17%, rgba(27, 27, 27, 0.05) 34%,rgba(31, 31, 31, 0.05) 34%, rgba(31, 31, 31, 0.05) 93%,rgba(242, 242, 242, 0.05) 93%, rgba(242, 242, 242, 0.05) 100%),linear-gradient(135deg, rgba(129, 129, 129, 0.05) 0%, rgba(129, 129, 129, 0.05) 66%,rgba(117, 117, 117, 0.05) 66%, rgba(117, 117, 117, 0.05) 91%,rgba(199, 199, 199, 0.05) 91%, rgba(199, 199, 199, 0.05) 100%),linear-gradient(135deg, rgba(31, 31, 31, 0.07) 0%, rgba(31, 31, 31, 0.07) 15%,rgba(139, 139, 139, 0.07) 15%, rgba(139, 139, 139, 0.07) 23%,rgba(200, 200, 200, 0.07) 23%, rgba(200, 200, 200, 0.07) 29%,rgba(102, 102, 102, 0.07) 29%, rgba(102, 102, 102, 0.07) 100%),linear-gradient(90deg, rgb(19, 196, 228),rgb(126, 8, 222))
 }
 
 
 
 .home-inner{
-    padding-top: 15em;
-    color: #fff;
+    padding-top: 3em;
+    
 }
 
 .home-inner h1{
     font-family: 'Ruthie', cursive;
-    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
     letter-spacing: 3px;
-    font-size: 8vw;
+    font-size: 6em;
     margin-right: auto;
     transform:rotate(-10deg);
-    color: #fedc3d;
+    color: #fff;
   
 }
 
 .home-inner h3{
     letter-spacing: 3px;
+    padding-bottom: 40px;
     font-family: 'Ruthie', cursive;
-    font-size: 2vw;
+    font-size: 1.5em;
     padding-top: 20px;
-    color: #fedc3d;
+    color: #fff;
     transform:rotate(-10deg);
+}
+.mainimage{
+    padding: 0;
+    margin: 0;
+}
+.landing .row{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mainimage img{
+
+   
+    box-sizing: border-box;
+    background-color: rgba(154, 154, 211, 0.2);
+    border-radius: 71% 29% 55% 45% / 67% 68% 32% 33%;
+    margin-bottom: 40px;
 }
 .btn-info{
     color: #fedc3d;
@@ -109,7 +128,7 @@ ul.navbar-nav li a{
 #about .title-head::before {
     content: '';
     border-radius: 20px;
-    background:#fedc3d;
+    background: #8919bb;
     height: 4px;
     width: 225px;
     margin-left: auto;
@@ -120,7 +139,7 @@ ul.navbar-nav li a{
 
 .title-head{
     text-align: center;
-    color: #fedc3d;
+    color: #8919bb;
 }
 
 .aboutme-inner2 h5{
@@ -150,7 +169,7 @@ ul.navbar-nav li a{
 #skills .title-head::before{
     content: '';
     border-radius: 20px;
-    background:#fedc3d;
+    background:#8919bb;
     height: 4px;
     width: 145px ;
     margin-left: auto;
@@ -210,4 +229,67 @@ ul.navbar-nav li a{
 
 .btn{
 background-color:#fedc3d 
+} 
+.home-inner a{
+    text-decoration: none !important;
+    color:#fff;
+    width: 100px;
+    height: 60px;
+    padding: 5px 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;  
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
+    background-size: 400%;
+    border-radius: 20px;
+    line-height: 60px;
+}
+
+.home-inner a:hover{
+   
+    animation: animate 8s linear infinite;
+}
+@keyframes animate{
+
+    0%{
+        background-position: 0%;
+    }
+    
+    100%{
+        background-position: 400%;
+    }
+}
+/*
+.home-inner a::before{
+    content: '';
+    position: absolute;
+    top:-50px;
+    bottom: -50px;
+    left:-50px;
+    right: -50px;
+    z-index: -1;
+    background: linear-gradient(90deg, #E7E247,   #E9EDDE, #fedc3d );
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px)
+}
+*/
+
+.about-des a{
+    text-decoration: none !important;
+    color:#fff;
+    width: 100px;
+    height: 60px;
+    padding: 5px 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: capitalize;  
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
+    background-size: 400%;
+    border-radius: 20px;
+    line-height: 60px;
 }
