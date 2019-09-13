@@ -7,13 +7,13 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+               
 .header{
      position: sticky;
      top:0;
      z-index: 10;
 }
-
+                     /*****************navbar*******************/
 .fa.fa-navicon {
     color:white;
   }
@@ -29,7 +29,6 @@ body{
 .navbar-brand{
     text-transform: uppercase;
     padding:  0px 10px;
-    
     border: 2px solid #fff;
     border-radius: 5px;
     padding-left: 15px;
@@ -37,21 +36,41 @@ body{
     color: #fff;
 }
 
+
 .navbar  a:hover{
-    color: #fedc3d;
+    color: #fff;
 }
 
 
 
 ul.navbar-nav li {
+    position: relative;
     letter-spacing: 2px;
     text-transform: capitalize;
 }
 
 ul.navbar-nav li a{
+    
     color: #fff;
 }
 
+.nav-link::before{
+    content: '';
+    position: absolute;
+    top: 80%;
+    width: 0%;
+    height: 2px;
+    border-bottom: 2px solid #fff;
+    transition: all 0.4s linear;
+}
+
+.nav-link:hover::before{
+    width: 80%;
+}
+
+                        /***********************navbar end ***************/
+
+                        /********************home**********************/
 
 .landing{
    background: linear-gradient(135deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 17%,rgba(27, 27, 27, 0.05) 17%, rgba(27, 27, 27, 0.05) 34%,rgba(31, 31, 31, 0.05) 34%, rgba(31, 31, 31, 0.05) 93%,rgba(242, 242, 242, 0.05) 93%, rgba(242, 242, 242, 0.05) 100%),linear-gradient(135deg, rgba(129, 129, 129, 0.05) 0%, rgba(129, 129, 129, 0.05) 66%,rgba(117, 117, 117, 0.05) 66%, rgba(117, 117, 117, 0.05) 91%,rgba(199, 199, 199, 0.05) 91%, rgba(199, 199, 199, 0.05) 100%),linear-gradient(135deg, rgba(31, 31, 31, 0.07) 0%, rgba(31, 31, 31, 0.07) 15%,rgba(139, 139, 139, 0.07) 15%, rgba(139, 139, 139, 0.07) 23%,rgba(200, 200, 200, 0.07) 23%, rgba(200, 200, 200, 0.07) 29%,rgba(102, 102, 102, 0.07) 29%, rgba(102, 102, 102, 0.07) 100%),linear-gradient(90deg, rgb(19, 196, 228),rgb(126, 8, 222))
@@ -60,8 +79,7 @@ ul.navbar-nav li a{
 
 
 .home-inner{
-    padding-top: 3em;
-    
+    padding-top: 3em;  
 }
 
 .home-inner h1{
@@ -85,36 +103,66 @@ ul.navbar-nav li a{
     color: #fff;
     transform:rotate(-10deg);
 }
-.mainimage{
-    padding: 0;
-    margin: 0;
-}
+
 .landing .row{
     margin-left: 20px;
     margin-right: 20px;
 }
-.mainimage img{
 
-   
+.mainimage img{
+    margin-top: 20px;
     box-sizing: border-box;
     background-color: rgba(154, 154, 211, 0.2);
     border-radius: 71% 29% 55% 45% / 67% 68% 32% 33%;
     margin-bottom: 40px;
-}
-.btn-info{
-    color: #fedc3d;
-   
-}
-
-.btn{
-    margin-top: 5rem;
-    color:#fff;
 }
 
 .ubtm-img{
     width: 100%;
     height: 100%;
 }
+
+.home-inner a{
+    text-decoration: none !important;
+    color:#000;
+    width: 100%;
+    height: 60%;
+    padding: 4px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;  
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 44, 235);
+    background: rgba(255, 255, 255,1);
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px -1px rgba(58, 57, 57, 0.75);
+}
+
+.home-inner a:hover{
+    color: #fff;
+    background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
+    border-style: none;
+    font-weight: 400;
+    background-size: 400%;
+    animation: animate 8s linear infinite;
+}
+@keyframes animate{
+
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 200%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+                        /**************************home  end here****************/
+
+                        /*************************about **********************/
 #about{
     padding-top: 70px;
 }
@@ -122,6 +170,7 @@ ul.navbar-nav li a{
 .aboutme-inner img{
     width:90%;
     height: 90%;
+    box-shadow: 0px 0px 8px -1px rgba(58, 57, 57, 0.75);
     
 }
 
@@ -145,26 +194,48 @@ ul.navbar-nav li a{
 .aboutme-inner2 h5{
     margin-top: 20px;
     padding-top: 20px;
-    
 }
 
-.about-des{
-    
+.about-des{ 
+    margin-bottom: 40px;
     padding-bottom: 30px;
-    border-radius: 5px;
-
-    
+    border-radius: 5px; 
 }
 
 .about-des p{
-    padding-left: 0px;
-    padding-right: 0px;
     line-height: 2rem;
 }
 
-.about-des.btn-info{
-    padding-bottom:20px ;
+.aboutme-inner2 a{
+    text-decoration: none !important;
+    color:#fff;
+    width: 100%;
+    height: 60%;
+    padding: 5px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;  
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
+    background-size: 400%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.9);
 }
+
+.aboutme-inner2 a:hover{
+    color: #000;
+    border: 1px solid #8919bb;
+    background: #fff;
+    box-shadow: 0px 0px 20px -1px #8919bb;
+    font-weight: 450;
+    border-size:100%;
+    border-image: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
+}
+
+
+            /***************************about end here***************/
+
          /******************Skill section ****************/
 #skills .title-head::before{
     content: '';
@@ -227,69 +298,5 @@ ul.navbar-nav li a{
     border-radius: 20px;
 }
 
-.btn{
-background-color:#fedc3d 
-} 
-.home-inner a{
-    text-decoration: none !important;
-    color:#fff;
-    width: 100px;
-    height: 60px;
-    padding: 5px 20px;
-    margin-right: 20px;
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: capitalize;  
-    box-sizing: border-box;
-    background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
-    background-size: 400%;
-    border-radius: 20px;
-    line-height: 60px;
-}
 
-.home-inner a:hover{
-   
-    animation: animate 8s linear infinite;
-}
-@keyframes animate{
 
-    0%{
-        background-position: 0%;
-    }
-    
-    100%{
-        background-position: 400%;
-    }
-}
-/*
-.home-inner a::before{
-    content: '';
-    position: absolute;
-    top:-50px;
-    bottom: -50px;
-    left:-50px;
-    right: -50px;
-    z-index: -1;
-    background: linear-gradient(90deg, #E7E247,   #E9EDDE, #fedc3d );
-    background-size: 400%;
-    border-radius: 40px;
-    filter: blur(20px)
-}
-*/
-
-.about-des a{
-    text-decoration: none !important;
-    color:#fff;
-    width: 100px;
-    height: 60px;
-    padding: 5px 20px;
-    margin-right: 20px;
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: capitalize;  
-    box-sizing: border-box;
-    background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
-    background-size: 400%;
-    border-radius: 20px;
-    line-height: 60px;
-}
