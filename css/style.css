@@ -120,6 +120,7 @@ ul.navbar-nav li a{
 .ubtm-img{
     width: 100%;
     height: 100%;
+    
 }
 
 .home-inner a{
@@ -170,6 +171,7 @@ ul.navbar-nav li a{
 .aboutme-inner img{
     width:90%;
     height: 90%;
+    border-radius: 5px;
     box-shadow: 0px 0px 8px -1px rgba(58, 57, 57, 0.75);
     
 }
@@ -221,6 +223,8 @@ ul.navbar-nav li a{
     background-size: 400%;
     border-radius: 20px;
     box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.9);
+    animation: animate 8s linear infinite;
+    
 }
 
 .aboutme-inner2 a:hover{
@@ -229,7 +233,7 @@ ul.navbar-nav li a{
     background: #fff;
     box-shadow: 0px 0px 20px -1px #8919bb;
     font-weight: 450;
-    border-size:100%;
+    
     border-image: linear-gradient(90deg, #436aeb, rgb(209, 58, 240),#436aeb);
 }
 
@@ -237,6 +241,8 @@ ul.navbar-nav li a{
             /***************************about end here***************/
 
          /******************Skill section ****************/
+
+
 #skills .title-head::before{
     content: '';
     border-radius: 20px;
@@ -249,8 +255,11 @@ ul.navbar-nav li a{
     transform: translateY(55px);
 }
 
+#skills{
+    margin-top: 20px;
+}
 
-#skills .container .container{
+#skills .container-fluid .container{
     width: 100%;
     background-color: #f1ecf1;
     padding-left: 0px !important;
@@ -260,6 +269,7 @@ ul.navbar-nav li a{
 }
 
 .skills-detail{
+    text-align: right;
     color: #fff;
 }
 #skills h4{
@@ -276,7 +286,7 @@ ul.navbar-nav li a{
 
 .css{
     width: 75%;
-    background-color: #436aeb;
+    background-color:#8919bb ;
     border-radius: 20px;
 }
 
@@ -294,9 +304,62 @@ ul.navbar-nav li a{
 
 .photoshop{
     width: 85%;
-    background-color: #8919bb;
+    background-color: #436aeb;
     border-radius: 20px;
+}
+
+#skills img{
+    box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    margin-top: 20%;
+}
+
+
+        /**********************hobbies*****************************/
+
+#hobbies{
+    margin-top: 70px;
+    padding-left: 60px;
+}
+
+#hobbies h1{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #8919bb;
+}
+    
+#hobbies h1::before{
+    content: '';
+    border-radius: 20px;
+    background:#8919bb;
+    height: 4px;
+    width: 175px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
 }
 
 
 
+/**************************************hobbies end***********************************/
+
+
+/************************************Contact me********************************************/
+
+#contactme{
+    background: linear-gradient(135deg, rgba(29, 29, 29, 0.05) 0%, rgba(29, 29, 29, 0.05) 17%,rgba(27, 27, 27, 0.05) 17%, rgba(27, 27, 27, 0.05) 34%,rgba(31, 31, 31, 0.05) 34%, rgba(31, 31, 31, 0.05) 93%,rgba(242, 242, 242, 0.05) 93%, rgba(242, 242, 242, 0.05) 100%),linear-gradient(135deg, rgba(129, 129, 129, 0.05) 0%, rgba(129, 129, 129, 0.05) 66%,rgba(117, 117, 117, 0.05) 66%, rgba(117, 117, 117, 0.05) 91%,rgba(199, 199, 199, 0.05) 91%, rgba(199, 199, 199, 0.05) 100%),linear-gradient(135deg, rgba(31, 31, 31, 0.07) 0%, rgba(31, 31, 31, 0.07) 15%,rgba(139, 139, 139, 0.07) 15%, rgba(139, 139, 139, 0.07) 23%,rgba(200, 200, 200, 0.07) 23%, rgba(200, 200, 200, 0.07) 29%,rgba(102, 102, 102, 0.07) 29%, rgba(102, 102, 102, 0.07) 100%),linear-gradient(90deg, rgb(19, 196, 228),rgb(126, 8, 222));
+
+}
+
+#contactme h1::before{
+    content: '';
+    border-radius: 20px;
+    background:#fff;
+    height: 4px;
+    width: 290px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
