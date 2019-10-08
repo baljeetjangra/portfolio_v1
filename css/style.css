@@ -135,7 +135,7 @@ ul.navbar-nav li a{
     font-weight: 400;
     text-transform: capitalize;  
     box-sizing: border-box;
-    border: 1px solid rgb(190, 44, 235);
+    border: 1px solid rgb(55, 157, 241);
     background: rgba(255, 255, 255,1);
     border-radius: 20px;
     box-shadow: 0px 0px 8px -1px rgba(58, 57, 57, 0.75);
@@ -314,6 +314,30 @@ ul.navbar-nav li a{
     border-radius: 5px;
     margin-top: 20%;
 }
+        /**************************projects************************/
+#projects{
+    margin-top: 70px;
+    padding-left: 60px;
+}
+
+#projects h1{
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #8919bb;
+}
+
+
+#projects h1::before{
+    content: '';
+    border-radius: 20px;
+    background:#8919bb;
+    height: 4px;
+    width: 265px ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+        }
 
 
         /**********************hobbies*****************************/
