@@ -1,0 +1,107 @@
+*{
+ margin: 0;
+ padding: 0;   
+}
+
+body{
+    background-image: url("../images/calculator_Background.jpg");
+    background-repeat: no-repeat;
+}
+
+.main{
+    margin: 30px auto;
+    height: 607px;
+    width: 400px;
+    background-color: rgba(138, 41, 230, 0.781);
+    border-radius: 10px;
+}
+
+.calculator{
+    padding: 50px;
+}
+
+p{
+    background-color: rgba(149, 56, 219);
+    
+    width: 100%;
+    height: 50px;
+}
+
+.operator, .number, .empty{
+    margin: 12px;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    border-radius: 50%;
+    outline-style: none;
+    font-size: 20px;
+    float: left;
+    font-weight: 500;
+    
+}
+.keyboard > input:nth-child(1){
+    background-color: aqua;
+}
+
+.keyboard > input:nth-child(2){
+    background-color: dodgerblue;
+}
+
+.keyboard > input:nth-child(3){
+    background-color: royalblue;
+}
+
+.keyboard > input:nth-child(4){
+    background-color: tomato;
+}
+
+.keyboard > input:nth-child(8){
+    background-color: orangered;
+}
+
+.keyboard > input:nth-child(12){
+    background-color: magenta;
+}
+
+.keyboard > input:nth-child(16){
+    background-color: yellowgreen;
+}
+
+.keyboard > input:nth-child(20){
+    background-color: yellow;
+}
+
+.number, .empty{
+    background-color: rgba(138, 41, 230, 0);
+    color: white;
+}
+
+#result{
+    height: 120px;
+ }
+
+#history{
+    width: 95%;
+
+    text-align: right;
+    font-size: 20px;
+    height: 30px;
+    color: #474444;
+    margin: 10px auto;
+}
+
+#output{
+    width: 95%;
+    text-align: right;
+    font-size: 30px;
+    height: 50px;
+    color: #000000  
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+.number:active, .operator:active{
+    font-size: 13px;
+}
+
