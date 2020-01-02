@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>A Basic Calculator</title>
+    <link rel="stylesheet" type="text/css" href="../css/calulator_css.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="calculator">
+        <input type="text" id="history" readonly />
+
+        <input type="text" id="output" readonly />
+
+        <div class="keyboard">
+          <input
+            class="operator"
+            type="button"
+            id="clear"
+            value="C"
+            onclick="clr()"
+          />
+          <input
+            class="operator"
+            type="button"
+            id="backspace"
+            value="CE"
+            onclick="ce()"
+          />
+          <input
+            class="operator"
+            type="button"
+            id="/"
+            value="&divide;"
+            onclick="insert('/')"
+          />
+          <input
+            class="operator"
+            type="button"
+            id="*"
+            value="&times;"
+            onclick="insert('*')"
+          />
+
+          <input
+            type="button"
+            class="number"
+            onclick="insert(7)"
+            id="7"
+            value="7"
+          />
+          <input
+            class="number"
+            type="button"
+            onclick="insert(8)"
+            id="8"
+            value="8"
+          />
+          <input
+            class="number"
+            onclick="insert(9)"
+            type="button"
+            id="9"
+            value="9"
+          />
+          <input
+            class="operator"
+            type="button"
+            id="-"
+            value="&minus;"
+            onclick="insert('-')"
+          />
+
+          <input
+            class="number"
+            onclick="insert(4)"
+            type="button"
+            id="4"
+            value="4"
+          />
+          <input
+            class="number"
+            onclick="insert(5)"
+            type="button"
+            id="5"
+            value="5"
+          />
+          <input
+            class="number"
+            onclick="insert(6)"
+            type="button"
+            id="6"
+            value="6"
+          />
+          <input
+            class="operator"
+            type="button"
+            id="+"
+            value="&plus;"
+            onclick="insert('+')"
+          />
+
+          <input
+            class="number"
+            onclick="insert(1)"
+            type="button"
+            id="1"
+            value="1"
+          />
+          <input
+            class="number"
+            onclick="insert(2)"
+            type="button"
+            id="2"
+            value="2"
+          />
+          <input
+            class="number"
+            onclick="insert(3)"
+            type="button"
+            id="3"
+            value="3"
+          />
+          <input
+            class="operator"
+            type="button"
+            onclick="insert('.')"
+            id="."
+            value="."
+          />
+
+          <input class="empty" type="button" id="empty /" />
+          <input
+            class="number"
+            onclick="insert(0)"
+            type="button"
+            id="0"
+            value="0"
+          />
+          <input class="empty" type="button" id="empty" />
+          <input
+            class="operator"
+            type="button"
+            id="="
+            value="&equals;"
+            onclick="result()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/calculatorScript.js"></script>
+  </body>
+</html>
