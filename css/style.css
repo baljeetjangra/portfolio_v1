@@ -315,7 +315,7 @@ ul.navbar-nav li a {
 }
 
 #skills {
-  margin-top: 20px;
+  padding-top: 70px;
 }
 
 #skills .container-fluid .container {
@@ -336,7 +336,11 @@ ul.navbar-nav li a {
 }
 
 .skill-info {
-  color: #55acee;
+  color: #106794;
+}
+.skillpic {
+  width: 100%;
+  height: 100%;
 }
 /*
 #skills img{
