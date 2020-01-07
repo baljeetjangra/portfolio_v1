@@ -354,11 +354,11 @@ ul.navbar-nav li a {
         /**************************projects************************/
 #projects {
   padding-top: 4.3rem;
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 #projects h1 {
-  margin-bottom: 50px;
+  padding-bottom: 4.3rem;
   text-transform: uppercase;
   color: #2a454e;
 }

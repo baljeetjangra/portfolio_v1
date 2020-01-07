@@ -1,0 +1,10 @@
+.preload {
+  background: rgb(19, 196, 228);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+.preload h2 {
+  color: red;
+}
