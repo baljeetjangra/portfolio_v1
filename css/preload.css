@@ -54,13 +54,24 @@
 
 .loading h1 {
   color: white;
+  font-size: 5rem;
   animation: fadeIn 2s linear forwards;
+  position: relative;
+}
+
+.loading h1::before {
+  content: "";
+  width: 4em;
+  height: 0.1em;
+  background: #00dfc0;
+  position: absolute;
 }
 
 .loading h2 {
   color: white;
   animation: fadeInv 3s linear forwards;
   margin-left: 1.5em;
+  font-size: 4rem;
 }
 
 .loading-animate {
