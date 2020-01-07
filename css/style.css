@@ -9,10 +9,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/********************************Preloader*****************************/
+
 .header {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 2;
 }
 /*****************navbar*******************/
 .fa.fa-navicon {
@@ -66,7 +68,6 @@ body {
   padding-left: 15px;
   letter-spacing: 5px;
   color: #fff;
-  opacity: 0;
 }
 
 .navbar a:hover {
