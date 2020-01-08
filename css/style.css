@@ -65,7 +65,7 @@ body {
   padding: 0px 10px;
   border: 2px solid #fff;
   border-radius: 5px;
-  padding-left: 15px;
+  padding-left: 1em;
   letter-spacing: 5px;
   color: #fff;
 }
@@ -138,7 +138,7 @@ ul.navbar-nav li a {
 }
 
 .home-inner {
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 .home-inner h1 {
@@ -146,7 +146,7 @@ ul.navbar-nav li a {
   margin-top: auto;
   margin-bottom: auto;
   letter-spacing: 3px;
-  font-size: 6em;
+  font-size: 5.3rem;
   margin-right: auto;
   transform: rotate(-10deg);
   color: #fff;
@@ -168,8 +168,6 @@ ul.navbar-nav li a {
 }
 
 .mainimage img {
-  margin-top: 20px;
-  box-sizing: border-box;
   background-color: rgba(154, 154, 211, 0.2);
   border-radius: 71% 29% 55% 45% / 67% 68% 32% 33%;
   margin-bottom: 40px;
@@ -182,65 +180,50 @@ ul.navbar-nav li a {
 
 .home-inner a {
   text-decoration: none !important;
-  color: #000;
   width: 100%;
   height: 60%;
-  padding: 4px 20px;
+  padding: 4px 16px;
   margin-right: 5px;
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 400;
   text-transform: capitalize;
-  box-sizing: border-box;
-  border: 1px solid rgb(55, 157, 241);
-  background: rgba(255, 255, 255, 1);
-  border-radius: 20px;
-  box-shadow: 0px 0px 8px -1px rgba(58, 57, 57, 0.75);
+  border-radius: 0.6em;
+  color: white;
+  background: #2a454e;
 }
 
 .home-inner a:hover {
-  color: #fff;
-  background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240), #436aeb);
-  border-style: none;
-  font-weight: 400;
-  background-size: 400%;
-  animation: animate 8s linear infinite;
-}
-@keyframes animate {
-  0% {
-    background-position: 0%;
-  }
-  50% {
-    background-position: 200%;
-  }
-  100% {
-    background-position: 400%;
-  }
+  color: black;
+  background: white;
 }
 
 /**************************home  end here****************/
 
 /*************************about **********************/
+.disable-a {
+  pointer-events: none;
+}
+
 #about {
-  padding-top: 4.3rem;
+  padding-top: 4.5em;
 }
 
 .aboutme-inner img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
   border-radius: 5px;
   box-shadow: 0px 0px 8px -1px rgba(58, 57, 57, 0.75);
 }
 
 #about .title-head::before {
   content: "";
-  border-radius: 20px;
+  border-radius: 1em;
   background: #483a6f;
   height: 4px;
-  width: 225px;
+  width: 5.5em;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  transform: translateY(55px);
+  transform: translateY(1.3em);
 }
 
 .title-head {
@@ -251,50 +234,40 @@ ul.navbar-nav li a {
 .aboutme-inner2 h1 {
   color: #483a6f;
 }
+
 .aboutme-inner2 h5 {
-  margin-top: 20px;
-  padding-top: 20px;
+  padding-top: 2em;
 }
 
 .about-des {
-  margin-bottom: 40px;
-  padding-bottom: 30px;
+  margin-bottom: 2em;
   border-radius: 5px;
   color: #303749;
   padding-top: 1.5rem;
-  font-size: 1.2rem;
 }
 
 .about-des p {
-  line-height: 2rem;
+  font-weight: 500;
+  line-height: 1.5em;
 }
 
 .aboutme-inner2 a {
   text-decoration: none !important;
-  color: #fff;
   width: 100%;
   height: 60%;
-  padding: 5px 20px;
+  padding: 4px 16px;
   margin-right: 5px;
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 400;
   text-transform: capitalize;
-  box-sizing: border-box;
-  background: linear-gradient(90deg, #436aeb, rgb(209, 58, 240), #436aeb);
-  background-size: 400%;
-  border-radius: 20px;
-  box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.9);
-  animation: animate 8s linear infinite;
+  border-radius: 0.6em;
+  color: white;
+  background: #483a6f;
 }
 
 .aboutme-inner2 a:hover {
-  color: #000;
-  border: 1px solid #8919bb;
-  background: #fff;
-  box-shadow: 0px 0px 20px -1px #8919bb;
-  font-weight: 450;
-
-  border-image: linear-gradient(90deg, #436aeb, rgb(209, 58, 240), #436aeb);
+  color: white;
+  background: #382c5a;
 }
 
 /***************************about end here***************/
@@ -306,11 +279,11 @@ ul.navbar-nav li a {
   border-radius: 20px;
   background: #3863b1;
   height: 4px;
-  width: 145px;
+  width: 3.3em;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  transform: translateY(55px);
+  transform: translateY(1.3em);
 }
 
 #skills .title-head {
@@ -318,21 +291,9 @@ ul.navbar-nav li a {
 }
 
 #skills {
-  padding-top: 4.3rem;
+  padding-top: 5em;
 }
 
-#skills .container-fluid .container {
-  width: 100%;
-  background-color: #f1ecf1;
-  padding-left: 0px !important;
-  text-align: right;
-  border-radius: 20px;
-}
-
-.skills-detail {
-  text-align: right;
-  color: #fff;
-}
 #skills h4 {
   padding-top: 30px;
   padding-bottom: 5px;
@@ -343,16 +304,16 @@ ul.navbar-nav li a {
   margin: 2rem 0;
 }
 .skillpic {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  /* height: 10; */
 }
-/*
-#skills img{
-    box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.9);
-    border-radius: 5px;
-    margin-top: 20%;
-}
-        /**************************projects************************/
+
+/* #skills img {
+  box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  margin-top: 20%;
+} */
+/**************************projects************************/
 #projects {
   padding-top: 4.3rem;
   /* padding-left: 60px; */
@@ -669,4 +630,25 @@ ul.navbar-nav li a {
       rgba(102, 102, 102, 0.07) 100%
     ),
     linear-gradient(90deg, rgb(19, 196, 228), rgb(126, 8, 222));
+}
+
+/**********************Mobile responsive***************************************/
+
+@media (max-width: 575px) {
+  /*****************nav logo**************/
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .navbar-nav {
+    text-align: right;
+  }
+  .nav-link:hover::before {
+    width: 0em;
+  }
+  .home-inner h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
 }

@@ -21,16 +21,15 @@
     <!------------jQuery------------------->
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-      <link rel="stylesheet" href="./css/preload.css">
+    <link rel="stylesheet" href="./css/preload.css">
   </head>
   <body>
     <div class="preload">
       <div class="loading">
-      <h1>Welcome</h1>
-      <h2>Version 1.0</h2>
+        <h1>Welcome</h1>
+        <h2>Version 1.0</h2>
+      </div>
     </div>
-    </div> 
     <header class="header">
       <!-------Nav bar start ---->
       <nav class="navbar navbar-expand-sm">
@@ -51,7 +50,7 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
 
             <li class="nav-item">
@@ -77,15 +76,19 @@
         <div class="col-md-6 mt-auto mb-auto"> <h1 class="container"> I'm <br>Baljeet
             Jangra</h1>
           <h3> Web Developer </h3>
-          <a href="#about"> Hire Me </a>
-          <a href="#about"> About Me </a></div>
+          <!-- <a href="#about"> Hire Me </a> -->
+          <a href="#about"> Know More </a></div>
         <div class="mainimage container col-md-6">
           <img src="images/Nerd.png" alt="Main Image" width="90%" height="auto">
         </div>
       </div>
       <img class="ubtm-img" src="images/wave.png" alt="wave">
     </div>
+
+
     <!---- ABOUT ME SECTION START HERE ------>
+
+
     <section id="about">
       <div class="container-fluid">
         <div class="aboutme row">
@@ -95,7 +98,7 @@
           <div class="aboutme-inner2 text-center col-md-6">
             <h1 class="title-head text-uppercase">About Me</h1>
             <div class="about-des text-center">
-              <h5>I'm a WEB Developer. </h5>
+              <h5>Hi... </h5>
               <p>I enjoy taking complex problems and turning them into into
                 simple. I also love the structure and logic of
                 coding and always strive to write elegent and effective code.
@@ -103,9 +106,12 @@
               <p>When i'm not coding or pushing pixels, you'll find me enjoying
                 or playing Games.</p>
             </div>
-            <a href="#skills">Know More</a>
-            <!---href="https://drive.google.com/file/d/1M7Zvxf2KjkxapNbyF9NCDTTe120iUBsP/view?usp=sharing"-->
-            <a target="_blank">
+            <!-- <a href="#skills">Know More</a> -->
+
+            <a class="disable-a"
+              href="https://drive.google.com/file/d/1M7Zvxf2KjkxapNbyF9NCDTTe120iUBsP/view?usp=sharing"
+              target="_blank"
+              disable>
               Download CV</a>
           </div>
         </div>
@@ -113,10 +119,11 @@
       <!---- ABOUT ME SECTION END HERE ------>
 
       <!---- SKILL SECTION START HERE ------>
+
       <section id="skills">
         <div class="container-fluid">
           <div class="skill row">
-            <div class="container-fluid col-md-8">
+            <div class="container-fluid col-md-6">
               <h1 class="title-head text-uppercase">Skills</h1>
               <div class="row">
                 <div class="col-sm-6">
@@ -140,7 +147,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mr-auto ml-auto">
+            <div class="col-md-6 mr-auto ml-auto">
               <img class="skillpic" src="images/skillwp.png" alt="skills">
             </div>
           </div>
@@ -283,8 +290,8 @@
 
       </footer>
 
-      <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="./js/bootstrap.min.js"></script>
       <script src="./js/preload.js"></script>
       <script src="./js/main.js"></script>
     </body>

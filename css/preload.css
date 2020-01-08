@@ -40,16 +40,17 @@
 }
 
 .predisplay {
-  animation: fadeout 2s ease-out forwards;
+  /* animation: fadeout 2s ease-out forwards; */
+  display: none;
 }
-@keyframes fadeout {
+/* @keyframes fadeout {
   from {
     opacity: 1;
   }
   to {
     opacity: 0;
   }
-}
+} */
 
 .loading {
   position: relative;
@@ -73,11 +74,12 @@
   content: "";
   width: 2.6em;
   height: 0.15em;
-  background: #00dfc0;
+  background: #7418c7;
   position: absolute;
   top: 0.95em;
   left: -0.2em;
   z-index: -1;
+  border-radius: 1em;
 }
 
 .loading h2 {
@@ -91,11 +93,12 @@
   content: "";
   width: 2.6em;
   height: 0.15em;
-  background: #00dfc0;
+  background: #1baac9;
   position: absolute;
   top: 0.95em;
   right: -0.2em;
   z-index: -1;
+  border-radius: 1em;
 }
 .loading-animate {
 }
@@ -134,5 +137,18 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 575px) {
+  .loading h1 {
+    font-size: 3rem;
+  }
+  .loading h2 {
+    font-size: 1.9rem;
+  }
+  .loading h2::before {
+    right: 0.2em;
+    top: 0.9em;
   }
 }
