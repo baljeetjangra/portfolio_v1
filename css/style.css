@@ -453,147 +453,38 @@ ul.navbar-nav li a {
 
 .github::before {
   content: "";
-  border-radius: 20px;
+  border-radius: 1em;
   background: #fff;
   height: 4px;
-  width: 110px;
+  width: 6.4em;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  transform: translateY(40px);
+  transform: translateY(2.3em);
 }
 
-.socialmedia {
-  display: flex;
-  align-items: center;
+.socialmedia img {
+  margin: 1.5em;
+}
+.socialmedia img:hover {
+  animation: popup 0.1s linear forwards;
+}
+.github img {
+  margin: 1.5em;
 }
 
-.socialmedia ul li {
-  list-style: none;
-  height: 50px;
-  width: 50px;
-  margin: 60px 0px;
-  font-weight: 60px;
-  transform: rotate(-30deg) skew(25deg);
-  background: rgb(182, 179, 179);
+.github img:hover {
+  animation: popup 0.1s linear forwards;
 }
-
-.socialmedia ul li span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #000;
-  transition: 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 1.5em;
-}
-
-.socialmedia ul li:hover span:nth-child(5) {
-  transform: translate(40px, -40px);
-  opacity: 1;
-}
-
-.socialmedia ul li:hover span:nth-child(4) {
-  transform: translate(30px, -30px);
-  opacity: 0.8;
-}
-
-.socialmedia ul li:hover span:nth-child(3) {
-  transform: translate(20px, -20px);
-  opacity: 0.6;
-}
-
-.socialmedia ul li:hover span:nth-child(2) {
-  transform: translate(10px, -10px);
-  opacity: 0.4;
-}
-
-.socialmedia ul li:hover span:nth-child(1) {
-  transform: translate(0px, 0px);
-  opacity: 0.2;
-}
-
-.socialmedia .ul1 ul li:nth-child(1) span {
-  background: #dd4b39;
-}
-
-.socialmedia .ul1 ul li:nth-child(2) span {
-  background: #3b5999;
-}
-
-.socialmedia .ul2 ul li:nth-child(1) span {
-  background: #55acee;
-}
-
-.socialmedia .ul2 ul li:nth-child(2) span {
-  background: #e4405f;
-}
-
-.socialmedia ul li:hover span {
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-.github ul li {
-  list-style: none;
-  height: 60px;
-  width: 60px;
-  margin: 60px 0px;
-  font-weight: 60px;
-  transform: rotate(-30deg) skew(25deg);
-  background: rgb(182, 179, 179);
-}
-
-.github ul li span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #000;
-  transition: 0.5s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 2em;
-}
-
-.github ul li:hover span:nth-child(5) {
-  transform: translate(40px, -40px);
-  opacity: 1;
-}
-
-.github ul li:hover span:nth-child(4) {
-  transform: translate(30px, -30px);
-  opacity: 0.8;
-}
-
-.github ul li:hover span:nth-child(3) {
-  transform: translate(20px, -20px);
-  opacity: 0.6;
-}
-
-.github ul li:hover span:nth-child(2) {
-  transform: translate(10px, -10px);
-  opacity: 0.4;
-}
-
-.github ul li:hover span:nth-child(1) {
-  transform: translate(0px, 0px);
-  opacity: 0.2;
-}
-
-.github ul li:hover span {
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-.github ul li span {
-  background: #000;
+@keyframes popup {
+  from {
+    transform: rotate(0deg);
+    transform: translateY(-0em);
+  }
+  to {
+    transform: rotate(360deg);
+    transform: translateY(-0.5em);
+  }
 }
 /**********************Mobile responsive***************************************/
 
@@ -608,8 +499,36 @@ ul.navbar-nav li a {
   .nav-link:hover::before {
     width: 0em;
   }
+  /*******************************Home Section*************************/
   .home-inner h1 {
     font-size: 4rem;
+  }
+  .mainimage {
+    margin-top: 2rem;
+  }
+  /****************************************About me********************/
+  #about {
+    padding: 2em 0;
+  }
+
+  .aboutme {
+    display: flex;
+  }
+  .aboutme-inner {
+    order: 2;
+    text-align: center;
+  }
+  .aboutme-inner2 {
+    order: 1;
+    margin: 2em 0em;
+  }
+  .aboutme-inner2 h5 {
+    padding-top: 1em;
+  }
+  /****************************************skills*************************/
+  #skills {
+    margin: 2em 0em;
+    padding-top: 3em;
   }
 }
 
