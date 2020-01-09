@@ -304,8 +304,7 @@ ul.navbar-nav li a {
   margin: 2rem 0;
 }
 .skillpic {
-  width: 90%;
-  /* height: 10; */
+  width: 80%;
 }
 
 /* #skills img {
@@ -315,30 +314,45 @@ ul.navbar-nav li a {
 } */
 /**************************projects************************/
 #projects {
-  padding-top: 4.3rem;
+  padding-top: 4em;
   /* padding-left: 60px; */
 }
 
 #projects h1 {
-  padding-bottom: 4.3rem;
+  padding-bottom: 1em;
   text-transform: uppercase;
   color: #2a454e;
 }
 
 #projects h1::before {
   content: "";
-  border-radius: 20px;
+  border-radius: 2em;
   background: #2a454e;
   height: 4px;
-  width: 265px;
+  width: 4.8em;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  transform: translateY(55px);
+  transform: translateY(1.3em);
+}
+/*****************************calculator***********************************/
+.calculator {
+  text-align: center;
+}
+.calculator h5 {
+  color: #5b6e80;
+}
+
+/*********************************RPS***************************************/
+.rps {
+  text-align: center;
+}
+.rps h5 {
+  color: #5b6e80;
 }
 
 /**********************hobbies*****************************/
-
+/* 
 #hobbies {
   padding-top: 4.3rem;
   padding-left: 60px;
@@ -361,12 +375,12 @@ ul.navbar-nav li a {
   display: block;
   transform: translateY(55px);
 }
-
+ */
 /**************************************hobbies end***********************************/
 
 /************************************Contact me********************************************/
 
-#contactme {
+#footer {
   background: linear-gradient(
       135deg,
       rgba(29, 29, 29, 0.05) 0%,
@@ -412,13 +426,13 @@ ul.navbar-nav li a {
     display: block;
     transform: translateY(55px);
 }*/
-
+.contact h1 {
+  font-family: "Ruthie", cursive;
+}
 .contact p {
-  margin: 0;
   font-family: "Ruthie", cursive;
   color: #fff;
-  padding-left: 25%;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .talk {
@@ -427,14 +441,14 @@ ul.navbar-nav li a {
 
 .talk::before {
   content: "";
-  border-radius: 20px;
+  border-radius: 1em;
   background: #fff;
   height: 4px;
-  width: 140px;
+  width: 8.1em;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  transform: translateY(40px);
+  transform: translateY(2.4em);
 }
 
 .github::before {
@@ -581,57 +595,6 @@ ul.navbar-nav li a {
 .github ul li span {
   background: #000;
 }
-/*****************************calculator***********************************/
-
-.calculator h5 {
-  padding-left: 7%;
-  color: #5b6e80;
-}
-
-/*********************************RPS***************************************/
-
-.rps h5 {
-  padding-left: 3%;
-  color: #5b6e80;
-}
-
-/****************************footer************************************/
-
-#footer {
-  background: linear-gradient(
-      135deg,
-      rgba(29, 29, 29, 0.05) 0%,
-      rgba(29, 29, 29, 0.05) 17%,
-      rgba(27, 27, 27, 0.05) 17%,
-      rgba(27, 27, 27, 0.05) 34%,
-      rgba(31, 31, 31, 0.05) 34%,
-      rgba(31, 31, 31, 0.05) 93%,
-      rgba(242, 242, 242, 0.05) 93%,
-      rgba(242, 242, 242, 0.05) 100%
-    ),
-    linear-gradient(
-      135deg,
-      rgba(129, 129, 129, 0.05) 0%,
-      rgba(129, 129, 129, 0.05) 66%,
-      rgba(117, 117, 117, 0.05) 66%,
-      rgba(117, 117, 117, 0.05) 91%,
-      rgba(199, 199, 199, 0.05) 91%,
-      rgba(199, 199, 199, 0.05) 100%
-    ),
-    linear-gradient(
-      135deg,
-      rgba(31, 31, 31, 0.07) 0%,
-      rgba(31, 31, 31, 0.07) 15%,
-      rgba(139, 139, 139, 0.07) 15%,
-      rgba(139, 139, 139, 0.07) 23%,
-      rgba(200, 200, 200, 0.07) 23%,
-      rgba(200, 200, 200, 0.07) 29%,
-      rgba(102, 102, 102, 0.07) 29%,
-      rgba(102, 102, 102, 0.07) 100%
-    ),
-    linear-gradient(90deg, rgb(19, 196, 228), rgb(126, 8, 222));
-}
-
 /**********************Mobile responsive***************************************/
 
 @media (max-width: 575px) {
