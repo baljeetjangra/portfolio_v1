@@ -298,13 +298,18 @@ ul.navbar-nav li a {
   padding-top: 30px;
   padding-bottom: 5px;
 }
-
+.skill-col {
+  padding: 0em 2em;
+}
 .skill-info {
   color: #106794;
-  margin: 2rem 0;
+  margin: 2em 0;
 }
 .skillpic {
   width: 80%;
+}
+.skill-right {
+  text-align: right;
 }
 
 /* #skills img {
@@ -529,6 +534,44 @@ ul.navbar-nav li a {
   #skills {
     margin: 2em 0em;
     padding-top: 3em;
+    text-align: center;
+  }
+  .skill-col {
+    margin: 0em;
+  }
+  .skill-info {
+    margin: 0;
+  }
+  .skill1,
+  .skill2 {
+    list-style-type: none;
+  }
+  .skill2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-right {
+    text-align: center;
+  }
+
+  /***************************************Projects**********************/
+  #projects > div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #projects {
+    padding-top: 3em;
+  }
+  #projects h1 {
+    padding-bottom: 0em;
+  }
+  .rps {
+    margin: 1em 0em;
+  }
+  /***********************Contact**************************************/
+  .socialmedia {
+    margin: 0;
   }
 }
 
