@@ -146,7 +146,7 @@ ul.navbar-nav li a {
   margin-top: auto;
   margin-bottom: auto;
   letter-spacing: 3px;
-  font-size: 5.3rem;
+  font-size: 5rem;
   margin-right: auto;
   transform: rotate(-10deg);
   color: #fff;
@@ -512,7 +512,7 @@ ul.navbar-nav li a {
   }
   /*******************************Home Section*************************/
   .home-inner h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .mainimage {
     margin-top: 2rem;
@@ -584,5 +584,11 @@ ul.navbar-nav li a {
   }
 }
 
-@media (max-width: 768px) {
-}
+/* @media (max-width: 767px) and (min-width: 575px) {
+  .home-inner h1 {
+    font-size: 3rem;
+  }
+} */
+
+/* @media (max-width: 985px) and (min-width: 768px) {
+}*/
