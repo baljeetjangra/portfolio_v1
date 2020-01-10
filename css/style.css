@@ -355,7 +355,13 @@ ul.navbar-nav li a {
 .rps h5 {
   color: #5b6e80;
 }
-
+/**********************************healthy eats website*******************/
+.healthyeats {
+  text-align: center;
+}
+.healthyeats h5 {
+  color: #5b6e80;
+}
 /**********************hobbies*****************************/
 /* 
 #hobbies {
@@ -567,6 +573,9 @@ ul.navbar-nav li a {
     padding-bottom: 0em;
   }
   .rps {
+    margin: 1em 0em;
+  }
+  .healthyeats {
     margin: 1em 0em;
   }
   /***********************Contact**************************************/
