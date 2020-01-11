@@ -303,7 +303,7 @@ ul.navbar-nav li a {
 }
 .skill-info {
   color: #106794;
-  margin: 2em 0;
+  margin: 1em 0;
 }
 .skillpic {
   width: 80%;
@@ -616,8 +616,7 @@ ul.navbar-nav li a {
   .title-head {
     font-size: 2rem;
   }
-  .skill-col {
-  }
+
   .skill-info {
     margin: 0em;
   }
@@ -668,4 +667,28 @@ ul.navbar-nav li a {
 }
 
 @media (max-width: 985px) and (min-width: 768px) {
+  /*********************home banner********************************/
+  .home-inner h1 {
+    font-size: 3.5rem;
+  }
+  /*****************************Skills********************************/
+  #skills {
+    padding-top: 3rem;
+  }
+  .skill-info {
+    margin: 0.5em;
+  }
+  /***************************************projects***********************/
+  #projects {
+    padding-top: 3rem;
+  }
+  /*************************************contact*************************/
+  .socialmedia img {
+    margin: 0;
+    width: 30%;
+  }
+  .github img {
+    width: 15%;
+    margin: 0;
+  }
 }
