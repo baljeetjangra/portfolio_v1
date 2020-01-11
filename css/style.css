@@ -584,11 +584,88 @@ ul.navbar-nav li a {
   }
 }
 
-/* @media (max-width: 767px) and (min-width: 575px) {
+@media (max-width: 767px) and (min-width: 575px) {
+  /********************************home Banner************************/
   .home-inner h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
-} */
+  .mainimage {
+    margin-top: 2em;
+  }
+  /*****************************About *****************************/
 
-/* @media (max-width: 985px) and (min-width: 768px) {
-}*/
+  .aboutme-inner img {
+    max-width: 100%;
+  }
+  .aboutme-inner2 h1 {
+    font-size: 2rem;
+  }
+  .about-des {
+    padding: 0em;
+  }
+  .about-des h5 {
+    padding-top: 1em;
+  }
+  .about-des p {
+    font-size: 0.9rem;
+  }
+  /**************************************skills***********************/
+  #skills {
+    padding-top: 3em;
+  }
+  .title-head {
+    font-size: 2rem;
+  }
+  .skill-col {
+  }
+  .skill-info {
+    margin: 0em;
+  }
+  /***************************************projects***********************/
+  #projects h1 {
+    font-size: 2rem;
+  }
+  /*************************************contact*************************/
+  .contact h1 {
+    font-size: 2rem;
+  }
+  .talk h3 {
+    font-size: 1.5rem;
+  }
+  .talk::before {
+    content: "";
+    border-radius: 1em;
+    background: #fff;
+    height: 4px;
+    width: 7.2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(2em);
+  }
+  .socialmedia img {
+    margin: 0;
+    width: 30%;
+  }
+  .github img {
+    width: 15%;
+    margin: 0;
+  }
+  .github h3 {
+    font-size: 1.5rem;
+  }
+  .github::before {
+    content: "";
+    border-radius: 1em;
+    background: #fff;
+    height: 4px;
+    width: 5.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(2em);
+  }
+}
+
+@media (max-width: 985px) and (min-width: 768px) {
+}
