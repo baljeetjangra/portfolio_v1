@@ -146,7 +146,7 @@ ul.navbar-nav li a {
   margin-top: auto;
   margin-bottom: auto;
   letter-spacing: 3px;
-  font-size: 5rem;
+  font-size: 8vw;
   margin-right: auto;
   transform: rotate(-10deg);
   color: #fff;
@@ -512,7 +512,7 @@ ul.navbar-nav li a {
   }
   /*******************************Home Section*************************/
   .home-inner h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .mainimage {
     margin-top: 2rem;
