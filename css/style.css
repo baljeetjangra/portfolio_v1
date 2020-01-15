@@ -291,7 +291,7 @@ ul.navbar-nav li a {
 }
 
 #skills {
-  padding-top: 5em;
+  padding-top: 3.3em;
 }
 
 #skills h4 {
@@ -319,7 +319,7 @@ ul.navbar-nav li a {
 } */
 /**************************projects************************/
 #projects {
-  padding-top: 4em;
+  padding-top: 3em;
   /* padding-left: 60px; */
 }
 
@@ -475,13 +475,13 @@ ul.navbar-nav li a {
 }
 
 .socialmedia img {
-  margin: 1.5em;
+  margin: 0.8em;
 }
 .socialmedia img:hover {
   animation: popup 0.1s linear forwards;
 }
 .github img {
-  margin: 1.5em;
+  margin: 0.8em;
 }
 
 .github img:hover {
