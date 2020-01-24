@@ -343,7 +343,12 @@ ul.navbar-nav li a {
 /*****************************calculator***********************************/
 .calculator {
   text-align: center;
+  overflow: hidden;
 }
+.calculator img {
+  box-shadow: 2px 2px 5px black;
+}
+
 .calculator h5 {
   color: #5b6e80;
 }
@@ -352,6 +357,9 @@ ul.navbar-nav li a {
 .rps {
   text-align: center;
 }
+.rps img {
+  box-shadow: 2px 2px 5px black;
+}
 .rps h5 {
   color: #5b6e80;
 }
@@ -359,7 +367,20 @@ ul.navbar-nav li a {
 .healthyeats {
   text-align: center;
 }
+.healthyeats img {
+  box-shadow: 2px 2px 5px black;
+}
 .healthyeats h5 {
+  color: #5b6e80;
+}
+/**********************************Interium proj website*******************/
+.interium {
+  text-align: center;
+}
+.interium img {
+  box-shadow: 2px 2px 5px black;
+}
+.interium h5 {
   color: #5b6e80;
 }
 /**********************hobbies*****************************/
