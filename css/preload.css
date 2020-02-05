@@ -64,9 +64,8 @@
 .loading h1 {
   color: white;
   font-size: 5rem;
-  animation: fadeIn 2s linear forwards;
+  animation: fadeIn 1s linear forwards;
   z-index: 1;
-
   position: relative;
 }
 
@@ -84,7 +83,7 @@
 
 .loading h2 {
   color: white;
-  animation: fadeInv 3s linear forwards;
+  animation: fadeInv 1s linear forwards;
   margin-left: 1.5em;
   font-size: 4rem;
 }
@@ -99,8 +98,6 @@
   right: -0.2em;
   z-index: -1;
   border-radius: 1em;
-}
-.loading-animate {
 }
 
 @keyframes fadeIn {
