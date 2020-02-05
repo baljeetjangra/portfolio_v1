@@ -383,6 +383,28 @@ ul.navbar-nav li a {
 .interium h5 {
   color: #5b6e80;
 }
+/**********************************Finance website*******************/
+.finance {
+  margin-top: 2em;
+  text-align: center;
+}
+.finance img {
+  box-shadow: 2px 2px 5px black;
+}
+.finance h5 {
+  color: #5b6e80;
+}
+/**********************************weather website*******************/
+.weather {
+  margin-top: 2em;
+  text-align: center;
+}
+.weather img {
+  box-shadow: 2px 2px 5px black;
+}
+.weather h5 {
+  color: #5b6e80;
+}
 /**********************hobbies*****************************/
 /* 
 #hobbies {
